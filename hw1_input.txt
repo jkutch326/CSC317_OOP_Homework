@@ -1,0 +1,27 @@
+In recent years various techniques have emerged that make 3D imaging cheaper and faster. Some consumer devices, such as the iPhone X and the Microsoft Kinect, can create such images. And in industry, similar approaches make 3D imaging a key part of many production lines where non-contact data acquisition is important.
+
+But there are significant limitations on these techniques, particularly for high-speed imaging of moving objects. These problems mean that practical systems cannot capture images faster than around 1,000 frames per second.
+
+Today, that looks set to change thanks to the work of Hongwei Chen and colleagues at Tsinghua University in Beijing. These guys have built a simple 3D imaging system that records movies at a frame rate of 500,000 frames per second. What’s more, they do it with a system that uses single pixels to record the images.
+
+First, some background. There are two practical limits on how fast 3D images can be recorded. The first is the repetition rate of the illumination system, which can freeze the action while beaming a known pattern onto an object to reveal its shape. The second is the refresh rate of the CCD chips that capture light.
+
+Of these, the refresh rate of CCD chips is the most restrictive. For example, it limits the iPhone X in slow-mo mode to 120 frames per second.  But higher speeds are possible with high-speed illumination systems using digital light-processing devices, which have a refresh rate of around 10 kilohertz.
+
+Chen and co have improved on both counts. Their illumination system, which is laser based, uses a clever trick to encode information at much higher rates than before. The technique first stretches each pulse and then encodes patterns both in time and in wavelength before compressing the pulse again. In this way, the patterns can refresh at a rate of up to 50 megahertz.
+
+The team has also improved the rate at which images can be captured.  A CCD chip is an array of light-sensitive pixels that together produce a 2D image. But their underlying technology limits the refresh rate to significantly less than 1,000 frames per second.
+
+The new approach records light using single pixels produced with a completely different underlying technology that refreshes at a rate of 500,000 frames per second. But how to create an image from a single pixel?
+
+To do this, Chen and co use another revolutionary photographic technique, called compressed sensing. The pixel records a large number of consecutive measurements of the light reflected off the object. This light is randomized by the changing pattern that illuminates the object.
+
+But although these measurements might seem random, they are actually correlated because they are all reflected off the same object. Indeed, the correlation is the image itself. Finding it is just a matter of some straightforward number crunching.
+
+The only remaining question is how rapidly the patterns can be projected onto the object. This is why the team’s new 50 MHz illumination technique is so important. It means each image can be formed by processing the light from 100 patterns. This leads to a frame rate of 500,000 frames per second. And the team uses several single pixels to build up a 3D image.
+
+Voila! A 3D imaging system with the potential to capture objects traveling at up to 500 meters per second with 1-millimeter resolution. That could have significant implications for remote monitoring of production lines and other applications of 3D imaging. “It’s a promising solution for high throughput industrial on-line inspection or autopilot screening in the future information society,” say the team.
+
+The system should also soon be even better. Chen and co say that straightforward modifications to their illumination system will allow it to project patterns at gigahertz speed,s and that this would allow the images to be constructed at a rate of 100,000 frames per second. “So even after thousands or millions of iterations used for single-pixel reconstruction, imaging speed could also reach up to more than 100 kHz,” they say. Impressive work!
+
+Source: technologyreview.com
